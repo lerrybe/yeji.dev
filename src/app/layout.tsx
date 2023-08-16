@@ -1,26 +1,27 @@
 import React from 'react';
+import '@/styles/reset.css';
+import '@/styles/global.css';
+import Header from '@/components/header';
 
 export const metadata = {
   title: {
-    default: '김예지 | 프론트엔드 개발자',
+    default: '김예지 | Yeji Kim',
     template: '김예지 | %s',
   },
   description: '김예지 포트폴리오',
-  // icons: {
-  //   icon: '/favicon.ico',
-  // },
 };
 
 export default function RootLayout({
-                                     children,
-                                   }: {
+  children,
+}: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-    <body suppressHydrationWarning={true}>
-    <main>{children}</main>
-    </body>
+    <html lang="en">
+      <body suppressHydrationWarning={true}>
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
