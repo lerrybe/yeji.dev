@@ -2,6 +2,7 @@ import React from 'react';
 import '@/styles/reset.css';
 import '@/styles/global.css';
 import Header from '@/components/header';
+import Footer from '@/components/footer';
 
 export const metadata = {
   title: {
@@ -18,9 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning={true}>
+      <body>
         <Header />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

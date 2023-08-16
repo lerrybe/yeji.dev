@@ -8,6 +8,7 @@ export const Container = styled.div`
   max-width: 720px;
   min-width: 340px;
   height: auto;
+  min-height: calc(100vh - 120px);
 `;
 
 export const ProfileContainer = styled.div`
