@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between w-full h-16 max-w-[720px] min-w-[340px] box-border px-4 pt-4 font-sans">
+    <header className="flex items-center justify-between w-full h-16 max-w-[720px] min-w-[340px] box-border px-4 pt-4 font-sans sticky top-0 backdrop-blur-lg z-40">
       <Link href="/">
         <h1 className="text-normal-black text-2xl font-bold transition duration-500 group hover:drop-shadow-4xl">
           {'Yeji.dev'}

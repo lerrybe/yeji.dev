@@ -21,7 +21,7 @@ export default function Keywords() {
     if (!container || !keyword) return;
 
     const containerHeight = container.clientHeight;
-    const division = containerHeight / (keyword.length * 1.9);
+    const division = containerHeight / (keyword.length * 1.12);
 
     const handleScroll = () => {
       const scrollY = container.scrollTop;
@@ -46,7 +46,7 @@ export default function Keywords() {
   return (
     <div
       ref={containerRef}
-      className="scroll overflow-auto mt-[60px] h-[410px] text-center md:mt-0"
+      className="scroll overflow-auto mt-[80px] h-[410px] text-center md:mt-0"
     >
       <ul className="w-[340px] my-5">
         {keywords?.map((keyword, index) => {

@@ -8,7 +8,7 @@ export default function ProjectCard({
 }: Props) {
   return (
     <>
-      <Link href={`/`}>
+      <Link href={`/project/${path}`}>
         <article className="w-[340px] h-auto box-border rounded-xl overflow-hidden cursor-pointer font-[NotoSansKR] transition-all hover:-translate-y-2 shadow-2xl shadow-gray-300">
           <div className="w-full flex flex-col justify-center items-start p-5 gap-2.5">
             <p className="w-full text-[#ababab] text-right text-sm font-[TheJamsil5Bold]">
