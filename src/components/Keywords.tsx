@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect, useRef, useState } from 'react';
-import * as S from './styles';
 import { keywords } from '@/data/home';
 
 export default function Keywords() {
@@ -45,20 +44,24 @@ export default function Keywords() {
   }, []);
 
   return (
-    <S.Container ref={containerRef}>
-      <S.Keywords>
+    <div
+      ref={containerRef}
+      className="overflow-auto h-[410px] text-center md:mt-15 scroll"
+    >
+      <ul className="w-[340px] my-5">
         {keywords?.map((keyword, index) => {
           return (
-            <S.Keyword
+            <li
               key={index}
-              className="keyword"
-              isActive={index === activeIndex}
+              className={`keyword keyword-scroll ${
+                index === activeIndex ? 'text-[#111]' : 'text-[#e8e8e8]'
+              } ${index === activeIndex ? 'drop-shadow-keyword' : ''}`}
             >
               {keyword + ' '}
-            </S.Keyword>
+            </li>
           );
         })}
-      </S.Keywords>
-    </S.Container>
+      </ul>
+    </div>
   );
 }
