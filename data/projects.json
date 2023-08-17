@@ -5,7 +5,10 @@
     "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 커스터마이즈 가능한 컴포넌트 라이브러리입니다. 직관적인 드래그 선택 기능과 자유롭게 스타일링을 바꿀 수 있는 장점이 있습니다.",
     "date": "2023.08",
     "tags": ["React", "TypeScript", "storybook", "npm"],
-    "path": "react-draggable-selector"
+    "path": "react-draggable-selector",
+    "sourceCodeUrl": "https://github.com/lerrybe/react-draggable-selector/tree/main",
+    "liveUrl": "https://www.npmjs.com/package/react-draggable-selector",
+    "videoUrl": ""
   },
   {
     "title": "collab-dotting",
@@ -13,7 +16,10 @@
     "description": "동시편집이 가능한 픽셀아트 에디터이고, 동시편집 라이브러리 Yorkie, 픽셀아트 라이브러리 Dotting의 예제로 contribution 된 프로젝트입니다.",
     "date": "2023.08",
     "tags": ["Yorkie", "Dotting", "React", "TypeScript"],
-    "path": "collab-dotting"
+    "path": "collab-dotting",
+    "sourceCodeUrl": "https://github.com/lerrybe/collab-dotting",
+    "liveUrl": "",
+    "videoUrl": ""
   },
   {
     "title": "portfolio",
@@ -21,7 +27,10 @@
     "description": "대충 그럴싸한 설명입니다. 대충 그럴싸한 설명입니다. 대충 그럴싸한 설명입니다.",
     "date": "2023.08",
     "tags": ["Next.js", "tailwindcss", "typescript"],
-    "path": "portfolio"
+    "path": "portfolio",
+    "sourceCodeUrl": "",
+    "liveUrl": "",
+    "videoUrl": ""
   },
   {
     "title": "waffle-market",
@@ -29,7 +38,10 @@
     "description": "대충 그럴싸한 설명입니다. 대충 그럴싸한 설명입니다. 대충 그럴싸한 설명입니다.",
     "date": "2023.01 ~ 2023.02",
     "tags": ["React", "TypeScript", "Redux-toolkit", "AWS-S3"],
-    "path": "waffle-market"
+    "path": "waffle-market",
+    "sourceCodeUrl": "",
+    "liveUrl": "",
+    "videoUrl": ""
   },
   {
     "title": "meetable",
@@ -37,6 +49,9 @@
     "description": "대충 그럴싸한 설명입니다. 대충 그럴싸한 설명입니다. 대충 그럴싸한 설명입니다.",
     "date": "2023.07 ~",
     "tags": ["React", "TypeScript", "context-API"],
-    "path": "meetable"
+    "path": "meetable",
+    "sourceCodeUrl": "",
+    "liveUrl": "",
+    "videoUrl": ""
   }
 ]

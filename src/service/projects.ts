@@ -9,6 +9,9 @@ export type Project = {
   description: string;
   path: string;
   tags: string[];
+  sourceCodeUrl: string;
+  liveUrl: string;
+  videoUrl: string;
 };
 
 export type ProjectData = Project & {

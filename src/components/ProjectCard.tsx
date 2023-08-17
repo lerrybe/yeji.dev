@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Project } from '@/service/projects';
+import { AiTwotoneCalendar } from 'react-icons/ai';
 
 type Props = { project: Project };
 export default function ProjectCard({
@@ -11,7 +12,8 @@ export default function ProjectCard({
       <Link href={`/project/${path}`}>
         <article className="w-[340px] h-auto box-border rounded-xl overflow-hidden cursor-pointer font-[NotoSansKR] transition-all hover:-translate-y-2 shadow-2xl shadow-gray-300">
           <div className="w-full flex flex-col justify-center items-start p-5 gap-2.5">
-            <p className="w-full text-[#ababab] text-right text-sm font-[TheJamsil5Bold]">
+            <p className="w-full text-[#ababab] flex justify-end items-center gap-1 text-sm font-[TheJamsil5Bold]">
+              <AiTwotoneCalendar />
               {date}
             </p>
             <h3 className="text-normal-black text-6 text-2xl font-extrabold tracking-[-1px] drop-shadow-keyword">

@@ -25,7 +25,7 @@ export default function Hero() {
         안녕하세요, 김예지입니다.
       </h3>
       <p className="mt-1 text-normal-black text-md font-medium tracking-tighter font-[NotoSansKR]">
-        세상의 가능성을 개발합니다.
+        일상의 가능성을 개발합니다.
       </p>
 
       <div className="flex gap-[6px] items-center justify-center mt-4">
