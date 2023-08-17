@@ -13,8 +13,6 @@
 }
 
 html, body {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +30,6 @@ html, body {
 .keyword-scroll {
   display: inline;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -1px;
 }

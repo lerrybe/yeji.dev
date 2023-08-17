@@ -28,7 +28,7 @@ export default function ProjectCard({
                 return (
                   <p
                     key={index}
-                    className="px-2.5 py-1 bg-[#9d51fa] text-white w-auto text-xs font-medium rounded-md"
+                    className="px-2.5 py-1 bg-[#5A5AD3] text-white w-auto text-xs font-medium rounded-md"
                   >
                     {tag}
                   </p>

@@ -1,12 +1,9 @@
-'use client';
-
 import React from 'react';
 
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Keywords from '@/components/Keywords';
-
-import '@/styles/reset.css';
+import ProjectsGrid from '@/components/ProjectsGrid';
 import DownArrow from '../../public/icons/down-arrow.png';
 
 export default function HomePage() {
@@ -26,6 +23,8 @@ export default function HomePage() {
           priority
         />
       </div>
+
+      <ProjectsGrid />
     </div>
   );
 }

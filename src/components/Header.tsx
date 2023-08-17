@@ -9,19 +9,14 @@ export default function Header() {
         </h1>
       </Link>
       <nav className="flex gap-x-5 text-base font-medium">
-        <Link href="/">
-          <span className="text-normal-black transition duration-500 hover:drop-shadow-3xl">
-            Projects
-          </span>
-        </Link>
         <a href="https://lerryroad.tistory.com/" target={'_blank'}>
           <span className="text-normal-black transition duration-500 hover:drop-shadow-3xl">
-            Blog
+            🟠 Blog
           </span>
         </a>
         <Link href="/">
           <span className="text-normal-black transition duration-500 hover:drop-shadow-3xl">
-            About
+            🟠 Resume
           </span>
         </Link>
       </nav>

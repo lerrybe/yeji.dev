@@ -54,7 +54,7 @@ export default function Keywords() {
             <li
               key={index}
               className={`keyword keyword-scroll ${
-                index === activeIndex ? 'text-[#111]' : 'text-[#e8e8e8]'
+                index === activeIndex ? 'text-[#333]' : 'text-[#e8e8e8]'
               } ${index === activeIndex ? 'drop-shadow-keyword' : ''}`}
             >
               {keyword + ' '}
