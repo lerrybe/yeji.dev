@@ -1,8 +1,8 @@
 import React from 'react';
 import '@/styles/reset.css';
 import '@/styles/global.css';
-import Header from '@/components/header';
-import Footer from '@/components/footer';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: {
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body>
         <Header />
         <main>{children}</main>
-        {/*<Footer />*/}
+        <Footer />
       </body>
     </html>
   );

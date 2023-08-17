@@ -46,7 +46,7 @@ export default function Keywords() {
   return (
     <div
       ref={containerRef}
-      className="overflow-auto h-[410px] text-center md:mt-15 scroll"
+      className="scroll overflow-auto mt-[60px] h-[410px] text-center md:mt-0"
     >
       <ul className="w-[340px] my-5">
         {keywords?.map((keyword, index) => {
