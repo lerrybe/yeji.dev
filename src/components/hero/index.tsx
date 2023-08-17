@@ -1,5 +1,3 @@
-'use client';
-
 import Image from 'next/image';
 import * as S from './styles';
 import { BsGithub } from 'react-icons/bs';
