@@ -5,7 +5,6 @@ import React from 'react';
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Keywords from '@/components/Keywords';
-// import Projects from '@/components/projects';
 
 import '@/styles/reset.css';
 import DownArrow from '../../public/icons/down-arrow.png';

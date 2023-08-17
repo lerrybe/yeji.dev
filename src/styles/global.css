@@ -19,3 +19,19 @@ html, body {
   flex-direction: column;
   align-items: center;
 }
+
+.scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.keyword-scroll {
+  display: inline;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
