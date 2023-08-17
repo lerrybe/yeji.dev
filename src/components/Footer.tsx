@@ -1,9 +1,7 @@
-import * as S from './styles';
-
 export default function Footer() {
   return (
-    <S.Container>
+    <p className="flex items-center justify-center w-full h-[60px] text-sm text-gray-700 mt-10">
       {`© ${new Date().getFullYear()} Yeji Kim | All Rights Reserved.`}
-    </S.Container>
+    </p>
   );
 }
