@@ -1,0 +1,34 @@
+[
+  {
+    "title": "react-draggable-selector",
+    "subTitle": "A library for select times with drag in React",
+    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 커스터마이즈 가능한 컴포넌트 라이브러리입니다. 직관적인 드래그 선택 기능과 자유롭게 스타일링을 바꿀 수 있는 장점이 있습니다.",
+    "date": "2023.08",
+    "tags": ["React", "TypeScript", "storybook"],
+    "path": "sample"
+  },
+  {
+    "title": "collab-dotting",
+    "subTitle": "A library for select times with drag in React",
+    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 커스터마이즈 가능한 컴포넌트 라이브러리입니다. 직관적인 드래그 선택 기능과 자유롭게 스타일링을 바꿀 수 있는 장점이 있습니다.",
+    "date": "2023.08",
+    "tags": ["React", "TypeScript", "storybook"],
+    "path": "sample"
+  },
+  {
+    "title": "waffle-market",
+    "subTitle": "A library for select times with drag in React",
+    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 커스터마이즈 가능한 컴포넌트 라이브러리입니다. 직관적인 드래그 선택 기능과 자유롭게 스타일링을 바꿀 수 있는 장점이 있습니다.",
+    "date": "2023.08",
+    "tags": ["React", "TypeScript", "storybook", "npm"],
+    "path": "sample"
+  },
+  {
+    "title": "meetable",
+    "subTitle": "A library for select times with drag in React",
+    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 커스터마이즈 가능한 컴포넌트 라이브러리입니다. 직관적인 드래그 선택 기능과 자유롭게 스타일링을 바꿀 수 있는 장점이 있습니다.",
+    "date": "2023.08",
+    "tags": ["React", "TypeScript", "storybook"],
+    "path": "sample"
+  }
+]
