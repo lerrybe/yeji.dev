@@ -22,18 +22,11 @@ export async function generateMetadata({
 
 export default async function ProjectPage({ params: { slug } }: Props) {
   const project = await getProjectData(slug);
-  const { title, path, next, prev } = project;
+  const { title, next, prev } = project;
 
   return (
     <div className="flex flex-col items-center w-[100vw] max-w-[720px] min-w-[340px] h-auto min-h-[calc(100vh-120px)]">
       <article className="w-full rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4">
-        <Image
-          className="w-full h-1/5 max-h-[500px]"
-          src={`/images/projects/${path}.png`}
-          alt={title}
-          width={760}
-          height={420}
-        />
         <ProjectContent project={project} />
         <section className="flex shadow-md">
           {prev && <AdjacentProjectCard post={prev} type="prev" />}
