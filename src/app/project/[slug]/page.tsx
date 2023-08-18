@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Metadata } from 'next';
 import ProjectContent from '@/components/ProjectContent';
 import AdjacentProjectCard from '@/components/AdjacentProjectCard';
+import { OUTER_LAYOUT_CLASS } from '@/styles/classStyle';
 import { getAllProjects, getProjectData } from '@/service/projects';
 
 type Props = {
@@ -25,7 +26,7 @@ export default async function ProjectPage({ params: { slug } }: Props) {
   const { title, next, prev } = project;
 
   return (
-    <div className="flex flex-col items-center w-[100vw] max-w-[720px] min-w-[340px] h-auto min-h-[calc(100vh-120px)]">
+    <div className={OUTER_LAYOUT_CLASS}>
       <article className="w-full rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4">
         <ProjectContent project={project} />
         <section className="flex shadow-md">

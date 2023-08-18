@@ -6,6 +6,9 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import profileImage from '../../public/images/profile.jpg';
 
 export default function Hero() {
+  const ICON_CLASS =
+    'flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle';
+
   return (
     <section className="text-center">
       <div className="flex items-center justify-center w-auto h-auto overflow-hidden rounded-full">
@@ -30,12 +33,12 @@ export default function Hero() {
 
       <div className="flex gap-[6px] items-center justify-center mt-4">
         <a target="_blank" href="https://github.com/lerrybe">
-          <div className="flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle">
+          <div className={ICON_CLASS}>
             <BsGithub size={'86%'} />
           </div>
         </a>
         <a target="_blank" href="https://lerryroad.tistory.com/">
-          <div className="flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle">
+          <div className={ICON_CLASS}>
             <SiTistory size={'72%'} />
           </div>
         </a>
@@ -43,12 +46,12 @@ export default function Hero() {
           target="_blank"
           href="https://www.linkedin.com/in/%EA%B9%80%EC%98%88%EC%A7%80-000219265/"
         >
-          <div className="flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle">
+          <div className={ICON_CLASS}>
             <AiFillLinkedin size={'100%'} />
           </div>
         </a>
         <a target="_blank" href="mailto:lerry597@gmail.com">
-          <div className="flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle">
+          <div className={ICON_CLASS}>
             <BiLogoGmail size={'100%'} />
           </div>
         </a>

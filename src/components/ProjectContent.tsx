@@ -1,11 +1,13 @@
 import MDViewer from '@/components/MDViewer';
-import { ProjectData } from '@/service/projects';
 import { MdWebAsset } from 'react-icons/md';
 import { RiLiveLine } from 'react-icons/ri';
 import { LiaGithubAlt } from 'react-icons/lia';
 import { AiTwotoneCalendar } from 'react-icons/ai';
+import { ProjectData } from '@/service/projects';
 
 export default function ProjectContent({ project }: { project: ProjectData }) {
+  const BUTTON_CLASS =
+    'flex items-center px-3 py-2 bg-blue-950 text-white rounded-lg text-sm gap-1 hover:bg-blue-900 transition duration-500';
   const { title, subTitle, date, content, sourceCodeUrl, liveUrl, videoUrl } =
     project;
   return (
@@ -20,7 +22,7 @@ export default function ProjectContent({ project }: { project: ProjectData }) {
           <div className="flex gap-2">
             {sourceCodeUrl && (
               <a target="_blank" href={sourceCodeUrl}>
-                <button className="flex items-center px-3 py-2 bg-blue-950 text-white rounded-lg text-sm gap-1 hover:bg-blue-900 transition duration-500">
+                <button className={BUTTON_CLASS}>
                   <LiaGithubAlt />
                   {'Go Github'}
                 </button>
@@ -28,7 +30,7 @@ export default function ProjectContent({ project }: { project: ProjectData }) {
             )}
             {liveUrl && (
               <a target="_blank" href={liveUrl}>
-                <button className="flex items-center px-3 py-2 bg-blue-950 text-white rounded-lg text-sm gap-1 hover:bg-blue-900 transition duration-500">
+                <button className={BUTTON_CLASS}>
                   <MdWebAsset />
                   {'Go Live'}
                 </button>
@@ -36,7 +38,7 @@ export default function ProjectContent({ project }: { project: ProjectData }) {
             )}
             {videoUrl && (
               <a target="_blank" href={videoUrl}>
-                <button className="flex items-center px-3 py-2 bg-blue-950 text-white rounded-lg text-sm gap-1 hover:bg-blue-900 transition duration-500">
+                <button className={BUTTON_CLASS}>
                   <RiLiveLine />
                   {'Go Video'}
                 </button>

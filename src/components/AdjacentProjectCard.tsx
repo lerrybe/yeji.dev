@@ -8,13 +8,13 @@ type Props = {
   type: 'prev' | 'next';
 };
 
-const ICON_CLASS =
-  'text-3xl m-4 text-white-300 transition-all group-hover:text-4xl';
-
 export default function AdjacentProjectCard({
   post: { path, title, subTitle },
   type,
 }: Props) {
+  const ICON_CLASS =
+    'text-3xl m-4 text-white-300 transition-all group-hover:text-5xl';
+
   return (
     <Link
       href={`/project/${path}`}
