@@ -7,7 +7,7 @@ import profileImage from '../../public/images/profile.jpg';
 
 export default function Hero() {
   const ICON_CLASS =
-    'flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle';
+    'flex items-center justify-center w-7 h-auto cursor-pointer hover:animate-wiggle dark:text-white';
 
   return (
     <section className="text-center">
@@ -21,13 +21,13 @@ export default function Hero() {
         />
       </div>
 
-      <h1 className="mt-5 text-normal-black text-4xl font-bold font-[TheJamsil5Bold]">
+      <h1 className="mt-5 text-normal-black text-4xl font-bold font-[TheJamsil5Bold] dark:text-white">
         Yeji Kim
       </h1>
-      <h3 className="mt-3 text-normal-black text-xl font-medium tracking-tighter font-[NotoSansKR]">
+      <h3 className="mt-3 text-normal-black text-xl font-medium tracking-tighter font-[NotoSansKR] dark:text-white">
         안녕하세요, 김예지입니다.
       </h3>
-      <p className="mt-1 text-normal-black text-md font-medium tracking-tighter font-[NotoSansKR]">
+      <p className="mt-1 text-normal-black text-md font-medium tracking-tighter font-[NotoSansKR] dark:text-white">
         일상의 가능성을 개발합니다.
       </p>
 
