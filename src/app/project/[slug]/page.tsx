@@ -27,7 +27,7 @@ export default async function ProjectPage({ params: { slug } }: Props) {
 
   return (
     <div className={OUTER_LAYOUT_CLASS}>
-      <article className="w-full rounded-2xl overflow-hidden bg-gray-100 shadow-lg m-4 mt-20">
+      <article className="w-full rounded-2xl overflow-hidden bg-white shadow-lg m-4 mt-20">
         <ProjectContent project={project} />
         <section className="flex shadow-md">
           {prev && <AdjacentProjectCard post={prev} type="prev" />}

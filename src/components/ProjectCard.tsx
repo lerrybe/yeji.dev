@@ -7,9 +7,9 @@ type Props = { project: Project };
 export default function ProjectCard({
   project: { title, subTitle, description, date, path, tags },
 }: Props) {
-  const ARTICLE_DARK_CLASS = 'dark:bg-normal-black dark:shadow-none';
+  const ARTICLE_DARK_CLASS = 'dark:bg-black dark:shadow-none';
   const ARTICLE_DEFAULT_CLASS =
-    'w-[340px] h-auto box-border rounded-xl overflow-hidden cursor-pointer font-[NotoSansKR] transition-all hover:-translate-y-2 shadow-2xl shadow-gray-300 ';
+    'w-[340px] h-auto box-border rounded-xl overflow-hidden cursor-pointer font-[NotoSansKR] transition-all hover:-translate-y-2 shadow-2xl shadow-gray-300 bg-white';
 
   return (
     <>
