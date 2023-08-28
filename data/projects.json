@@ -1,35 +1,67 @@
 [
   {
+    "title": "react-draggable-selector",
+    "subTitle": "A library for select times with drag in React",
+    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 컴포넌트 라이브러리입니다. 직관적인 드래그 선택을 할 수 있다는 장점이 있습니다.",
+    "date": "2023.08 ~",
+    "tags": ["React", "TypeScript", "storybook", "npm"],
+    "path": "react-draggable-selector",
+    "sourceCodeUrl": "https://github.com/lerrybe/react-draggable-selector",
+    "liveUrl": "https://react-draggable-selector.vercel.app/",
+    "videoUrl": ""
+  },
+  {
+    "title": "meetable",
+    "subTitle": "우리의 효율적인 일정 스케줄링",
+    "description": "운영을 목표로 개발 중인 팀 스케줄링 서비스 ⏰ 미터블 ⏰ 입니다. 간단히 링크를 통해 일정을 공유, 예약함으로써 효율적으로 스케줄을 공유하고 관리할 수 있습니다.",
+    "date": "2023.07 ~ 진행 중",
+    "tags": ["React", "TS", "Redux-toolkit", "Twin.macro"],
+    "path": "meetable",
+    "sourceCodeUrl": "",
+    "liveUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "title": "collab-dotting",
+    "subTitle": "픽셀아트 동시편집 협업 에디터",
+    "description": "동시편집 라이브러리인 🐶 Yorkie 🐶, 픽셀아트 라이브러리인 👾 Dotting 👾을 이용해 만든 픽셀아트 협업 에디터입니다. 컨트리뷰션용으로 먼저 만들었지만, 픽셀아트 그리는 것을 좋아하는 사람들이 사용할 수 있도록 개선 중입니다.",
+    "date": "2023.08 ~",
+    "tags": [
+      "React",
+      "TS",
+      "tailwindcss",
+      "Yorkie",
+      "Dotting"
+    ],
+    "path": "collab-dotting",
+    "sourceCodeUrl": "https://github.com/lerrybe/collab-dotting",
+    "liveUrl": "",
+    "videoUrl": ""
+  },
+  {
     "title": "Yeji.dev",
-    "subTitle": "프로젝트를 기록하는 개인 블로그",
-    "description": "Next.js, tailwindcss, typescript를 이용해 만든 블로그입니다. 블로그 특성상 정적인 부분이 많고, 서버 사이드에서 마크다운 파일을 읽어 보여주는 작업을 할 수 있어 Next.js를 사용해 구현 했습니다.",
+    "subTitle": "프로젝트를 기록하는 개인 페이지",
+    "description": "Next.js, tailwindcss, typescript를 이용해 만든 프로젝트 블로그입니다. 페이지 특성상 정적인 부분이 많고, 서버 사이드에서 마크다운 파일을 읽어 보여주는 작업을 할 수 있어 Next.js를 사용해 구현 했습니다.",
     "date": "2023.08",
-    "tags": ["Next.js", "tailwindcss", "typescript"],
+    "tags": [
+      "Next.js",
+      "tailwindcss",
+      "typescript"
+    ],
     "path": "portfolio",
     "sourceCodeUrl": "https://github.com/lerrybe/yeji.dev",
-    "liveUrl": "",
+    "liveUrl": "https://yeji-dev.vercel.app/",
     "videoUrl": ""
   },
   {
     "title": "waffle-market",
     "subTitle": "당근마켓 클론코딩 프로젝트",
-    "description": "단순 게시판 기능 외에 예약, 거래, 채팅 등의 부가 기능이 더해진 서비스를 구현해보면서 구성원들의 개발 실력 성장을 이루고자 했고, 서비스 기획에 인풋을 줄이기 위해 기존에 있는 서비스를 기반으로 클론 코딩을 하였습니다.",
+    "description": "게시판 기능에 예약, 거래, 채팅 등의 부가 기능이 더해진 서비스를 클론해보며 구성원들의 성장을 이루고자 했고, 서비스 기획에 인풋을 줄이기 위해 기존에 있는 서비스를 기반으로 클론코딩을 하였습니다.",
     "date": "2023.01 ~ 2023.02",
     "tags": ["React", "TypeScript", "Redux-toolkit", "AWS-S3"],
     "path": "waffle-market",
     "sourceCodeUrl": "https://github.com/lerrybe/waffle-market",
     "liveUrl": "",
     "videoUrl": "https://www.youtube.com/watch?v=MHO3Fofvu3A"
-  },
-  {
-    "title": "react-draggable-selector",
-    "subTitle": "A library for select times with drag in React",
-    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 커스터마이즈 가능한 컴포넌트 라이브러리입니다. 직관적인 드래그 선택 기능과 자유롭게 스타일링을 바꿀 수 있는 장점이 있습니다.",
-    "date": "2023.08",
-    "tags": ["React", "TypeScript", "storybook", "npm"],
-    "path": "react-draggable-selector",
-    "sourceCodeUrl": "https://github.com/lerrybe/react-draggable-selector/tree/main",
-    "liveUrl": "https://www.npmjs.com/package/react-draggable-selector",
-    "videoUrl": ""
   }
 ]
