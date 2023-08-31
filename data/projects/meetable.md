@@ -1,5 +1,3 @@
-![img.png](https://user-images.githubusercontent.com/71599639/264277079-97df6978-38d7-4056-bb24-5ae09f373d2f.png)
-
 ## 😀 개요
 
 ## 👩🏻‍💻 맡은 부분 (Frontend)

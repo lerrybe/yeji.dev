@@ -1,5 +1,3 @@
-![img.png](https://user-images.githubusercontent.com/71599639/264276961-9251e555-7048-43b8-8011-14d2d1a6d33d.png)
-
 ## 😀 개요
 
 ## 📚 기술 스택
