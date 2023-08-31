@@ -1,16 +1,5 @@
 [
   {
-    "title": "react-draggable-selector",
-    "subTitle": "A library for select times with drag in React",
-    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 컴포넌트 라이브러리입니다. 직관적인 드래그 선택을 할 수 있다는 장점이 있습니다.",
-    "date": "2023.08 ~",
-    "tags": ["React", "TypeScript", "storybook", "npm"],
-    "path": "react-draggable-selector",
-    "sourceCodeUrl": "https://github.com/lerrybe/react-draggable-selector",
-    "liveUrl": "https://react-draggable-selector.vercel.app/",
-    "videoUrl": ""
-  },
-  {
     "title": "meetable",
     "subTitle": "우리의 효율적인 일정 스케줄링",
     "description": "운영을 목표로 개발 중인 팀 스케줄링 서비스 ⏰ 미터블 ⏰ 입니다. 간단히 링크를 통해 일정을 공유, 예약함으로써 효율적으로 스케줄을 공유하고 관리할 수 있습니다.",
@@ -19,6 +8,17 @@
     "path": "meetable",
     "sourceCodeUrl": "",
     "liveUrl": "",
+    "videoUrl": ""
+  },
+  {
+    "title": "react-draggable-selector",
+    "subTitle": "A library for select times with drag in React",
+    "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 컴포넌트 라이브러리입니다. 직관적인 드래그 선택을 할 수 있다는 장점이 있습니다.",
+    "date": "2023.08 ~",
+    "tags": ["React", "TypeScript", "storybook", "npm"],
+    "path": "react-draggable-selector",
+    "sourceCodeUrl": "https://github.com/lerrybe/react-draggable-selector",
+    "liveUrl": "https://react-draggable-selector.vercel.app/",
     "videoUrl": ""
   },
   {

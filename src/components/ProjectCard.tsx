@@ -47,7 +47,7 @@ export default function ProjectCard({
             alt={title}
             width={340}
             height={240}
-            className="w-full object-cover"
+            className="w-full h-[200px] object-cover"
           />
         </article>
       </Link>
