@@ -9,7 +9,7 @@ import { materialOceanic } from 'react-syntax-highlighter/dist/cjs/styles/prism'
 export default function MDViewer({ content }: { content: string }) {
   return (
     <ReactMarkdown
-      className="prose max-w-none"
+      className="prose max-w-none leading-6 tracking-tight"
       remarkPlugins={[remarkGfm]}
       components={{
         code({ node, inline, className, children, ...props }) {
@@ -31,7 +31,7 @@ export default function MDViewer({ content }: { content: string }) {
         },
         img: image => (
           <Image
-            className="w-full max-h-60 object-cover"
+            className="w-full h-auto object-cover rounded-md"
             src={image.src || ''}
             alt={image.alt || ''}
             width={500}

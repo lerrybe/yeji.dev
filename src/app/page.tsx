@@ -5,7 +5,7 @@ import Hero from '@/components/Hero';
 import Keywords from '@/components/Keywords';
 import ProjectsGrid from '@/components/ProjectsGrid';
 import DownArrow from '../../public/icons/down-arrow.png';
-import { CATEGORY_CLASS, OUTER_LAYOUT_CLASS } from '@/styles/classStyle';
+import { OUTER_LAYOUT_CLASS } from '@/styles/classStyle';
 
 export default function HomePage() {
   return (
@@ -25,7 +25,6 @@ export default function HomePage() {
         />
       </div>
 
-      <h1 className={CATEGORY_CLASS}>Projects</h1>
       <ProjectsGrid />
     </div>
   );
