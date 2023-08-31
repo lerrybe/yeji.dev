@@ -38,6 +38,15 @@ export default function MDViewer({ content }: { content: string }) {
             height={350}
           />
         ),
+        a: ({ href, children }) => (
+          <a
+            href={href}
+            target="_blank"
+            className="text-sky-500 decoration-transparent"
+          >
+            {children}
+          </a>
+        )
       }}
     >
       {content}

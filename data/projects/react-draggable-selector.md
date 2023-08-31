@@ -33,12 +33,12 @@
   **과정에서 깨달은 점**
   * 여러 역할이 엉켜있는 코드보다 역할 별로 잘 분리되어 있는 코드가 재사용 및 유지 보수가 용이하다는 점을 깨닫게 되었습니다. 
   * 😀 더욱 자세한 내용을 읽어보고 싶으시다면 아래 링크를 눌러주세요!
-  * [🌀 셀렉터 라이브러리 v2.1.1 업데이트](https://lerryroad.tistory.com/136)
+  * [셀렉터 라이브러리 v2.1.1 업데이트에 관한 글](https://lerryroad.tistory.com/136)
 
 ---
 
 ### 💡 깜빡임 이슈 해결
-* useLayoutEffect 훅을 통한 깜빡임 이슈 해결하기
+* **useLayoutEffect** 훅을 통한 깜빡임 이슈 해결하기
 
   **문제 상황**
   * mode를 바꿀 때나, 날짜를 변경할 때, 선택된 timeSlots들이 초기화되어야하는 경우 렌더가 다시 일어나는데 그 때 깜빡임이 발생했습니다.
@@ -53,12 +53,12 @@
   * React에서 상태 업데이트 로직을 처리하는 것은 여러 방법이 있지만, 각 상황에 따라 적절한 방법을 선택해야함을 깨달았습니다. 
   * 예를 들어, **useEffect**와 **useLayoutEffect**는 비슷하지만 작동 시점이 다르기 때문에, 깜빡임과 같은 UI 이슈를 해결할 때는 **useLayoutEffect**가 더 적합하다는 것을 알게 되었습니다.
   * 😀 더욱 자세한 내용을 읽어보고 싶으시다면 아래 링크를 눌러주세요!
-  * [🌀 셀렉터 라이브러리 v2.1.1 업데이트](https://lerryroad.tistory.com/136)
+  * [셀렉터 라이브러리 v2.1.1 업데이트에 관한 글](https://lerryroad.tistory.com/136)
 
 ---
 
 ### 그 외 정리한 글
 * [Draggable-time-selector 구현하기](https://lerryroad.tistory.com/128)
-* [🌀 셀렉터 라이브러리 제작하기 (1) - 개요 및 기능탐색](https://lerryroad.tistory.com/130)
-* [🌀 셀렉터 라이브러리 제작하기 (2) - 코드 톺아보기](https://lerryroad.tistory.com/132)
-* [🌀 셀렉터 라이브러리 제작하기 (3) - npm 배포하기](https://lerryroad.tistory.com/133)
+* [셀렉터 라이브러리 제작하기 (1) - 개요 및 기능탐색](https://lerryroad.tistory.com/130)
+* [셀렉터 라이브러리 제작하기 (2) - 코드 톺아보기](https://lerryroad.tistory.com/132)
+* [셀렉터 라이브러리 제작하기 (3) - npm 배포하기](https://lerryroad.tistory.com/133)
