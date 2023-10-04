@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Hero from '@/components/Hero';
 import Keywords from '@/components/Keywords';
 import ProjectsGrid from '@/components/ProjectsGrid';
+import ContributionsGrid from '@/components/ContributionsGrid';
+
 import DownArrow from '../../public/icons/down-arrow.png';
 import { OUTER_LAYOUT_CLASS } from '@/styles/classStyle';
 
@@ -26,6 +28,7 @@ export default function HomePage() {
       </div>
 
       <ProjectsGrid />
+      <ContributionsGrid />
     </div>
   );
 }

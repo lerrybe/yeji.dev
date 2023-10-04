@@ -1,0 +1,18 @@
+[
+  {
+    "title": "[Yorkie] Example 개발",
+    "date": "2023.10",
+    "description": "React 기반의 pixel editor 'dotting'과 함께 사용할 수 있는 'Yorkie'의 Example 개발을 진행, 픽셀아트 동시편집 협업툴을 구현했습니다.",
+    "path": "",
+    "recordUrls": [],
+    "githubUrls": ["https://github.com/reactjs/ko.react.dev/issues/761"]
+  },
+  {
+    "title": "[Dotting] Paint bucket BrushTool 기능 개발",
+    "date": "2023.04",
+    "description": "React 기반의 pixel editor dotting에서 ",
+    "path": "",
+    "recordUrls": [],
+    "githubUrls": ["https://github.com/reactjs/ko.react.dev/issues/761"]
+  }
+]

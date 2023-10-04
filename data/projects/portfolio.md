@@ -1,4 +1,6 @@
 ## 😀 개요
+* Next.js를 이용한 포트폴리오 사이트입니다.
+* 
 
 ## 📚 기술 스택
 ![img.png](https://user-images.githubusercontent.com/71599639/264404128-b8fc5b59-fb5e-4811-a233-ea8a488a6ea4.png)
