@@ -10,10 +10,12 @@ import { OUTER_LAYOUT_CLASS } from '@/styles/classStyle';
 export default function HomePage() {
   return (
     <div className={OUTER_LAYOUT_CLASS}>
-      <div className="flex flex-col items-center w-full h-auto mt-[100px] md:flex-row md:justify-between">
-        <Hero />
-        <Keywords />
+      {/*<div className="flex flex-col items-center w-full h-auto mt-[100px] md:flex-row md:justify-between">*/}
+      <div className="mt-[100px]">
+        <Hero/>
       </div>
+        {/* <Keywords /> */}
+      {/*</div>*/}
 
       <div className="w-auto h-auto mt-20 animate-upAndDown">
         <Image

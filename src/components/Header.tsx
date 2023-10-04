@@ -25,9 +25,13 @@ export default function Header() {
         >
           <span className={NAV_CATEGORY_CLASS}>🟠 Blog</span>
         </a>
-        <Link href="/" className="flex items-center">
+        <a
+          href="https://garrulous-philosophy-1a3.notion.site/254252afb4424744a7823e5acd4c3102?pvs=4"
+          target={'_blank'}
+          className="flex items-center"
+        >
           <span className={NAV_CATEGORY_CLASS}>🟠 Resume</span>
-        </Link>
+        </a>
 
         <Toggle isDark={isDarkMode} handleToggle={toggleTheme} />
       </nav>

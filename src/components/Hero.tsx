@@ -27,9 +27,9 @@ export default function Hero() {
       <h3 className="mt-3 text-normal-black text-xl font-medium tracking-tighter font-[NotoSansKR] dark:text-white">
         안녕하세요, 김예지입니다.
       </h3>
-      <p className="mt-1 text-normal-black text-md font-medium tracking-tighter font-[NotoSansKR] dark:text-white">
-        일상의 가능성을 개발합니다.
-      </p>
+      {/*<p className="mt-1 text-normal-black text-md font-medium tracking-tighter font-[NotoSansKR] dark:text-white">*/}
+      {/*  일상의 가능성을 개발합니다.*/}
+      {/*</p>*/}
 
       <div className="flex gap-[6px] items-center justify-center mt-4">
         <a target="_blank" href="https://github.com/lerrybe">

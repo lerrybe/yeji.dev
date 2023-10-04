@@ -1,16 +1,5 @@
 [
   {
-    "title": "meetable",
-    "subTitle": "우리의 효율적인 일정 스케줄링",
-    "description": "운영을 목표로 개발 중인 팀 스케줄링 서비스 ⏰ 미터블 ⏰ 입니다. 간단히 링크를 통해 일정을 공유, 예약함으로써 효율적으로 스케줄을 공유하고 관리할 수 있습니다.",
-    "date": "2023.07 ~ 진행 중",
-    "tags": ["React", "TS", "Redux-toolkit", "Twin.macro"],
-    "path": "meetable",
-    "sourceCodeUrl": "",
-    "liveUrl": "",
-    "videoUrl": ""
-  },
-  {
     "title": "react-draggable-selector",
     "subTitle": "A library for select times with drag in React",
     "description": "React-Draggable-Selector는 사용자가 드래그하여 시간 범위를 쉽게 선택할 수 있는 컴포넌트 라이브러리입니다. 직관적인 드래그 선택을 할 수 있다는 장점이 있습니다.",
@@ -20,6 +9,17 @@
     "sourceCodeUrl": "https://github.com/lerrybe/react-draggable-selector",
     "liveUrl": "https://react-draggable-selector.vercel.app/",
     "videoUrl": ""
+  },
+  {
+    "title": "waffle-market",
+    "subTitle": "당근마켓 클론코딩 프로젝트",
+    "description": "게시판 기능에 예약, 거래, 채팅 등의 부가 기능이 더해진 서비스를 클론해보며 구성원들의 성장을 이루고자 했고, 서비스 기획에 인풋을 줄이기 위해 기존에 있는 서비스를 기반으로 클론코딩을 하였습니다.",
+    "date": "2023.01 ~ 2023.02",
+    "tags": ["React", "TypeScript", "Redux-toolkit", "AWS-S3"],
+    "path": "waffle-market",
+    "sourceCodeUrl": "https://github.com/lerrybe/waffle-market",
+    "liveUrl": "",
+    "videoUrl": "https://www.youtube.com/watch?v=MHO3Fofvu3A"
   },
   {
     "title": "collab-dotting",
@@ -35,7 +35,7 @@
     ],
     "path": "collab-dotting",
     "sourceCodeUrl": "https://github.com/lerrybe/collab-dotting",
-    "liveUrl": "",
+    "liveUrl": "https://lerrybe.github.io/collab-dotting",
     "videoUrl": ""
   },
   {
@@ -52,16 +52,5 @@
     "sourceCodeUrl": "https://github.com/lerrybe/yeji.dev",
     "liveUrl": "https://yeji-dev.vercel.app/",
     "videoUrl": ""
-  },
-  {
-    "title": "waffle-market",
-    "subTitle": "당근마켓 클론코딩 프로젝트",
-    "description": "게시판 기능에 예약, 거래, 채팅 등의 부가 기능이 더해진 서비스를 클론해보며 구성원들의 성장을 이루고자 했고, 서비스 기획에 인풋을 줄이기 위해 기존에 있는 서비스를 기반으로 클론코딩을 하였습니다.",
-    "date": "2023.01 ~ 2023.02",
-    "tags": ["React", "TypeScript", "Redux-toolkit", "AWS-S3"],
-    "path": "waffle-market",
-    "sourceCodeUrl": "https://github.com/lerrybe/waffle-market",
-    "liveUrl": "",
-    "videoUrl": "https://www.youtube.com/watch?v=MHO3Fofvu3A"
   }
 ]
